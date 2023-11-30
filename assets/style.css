@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buildings-list path {
+  fill: #4ae14f00;
+  stroke: #0ff45000;
+  cursor: pointer;
+}
+
+.buildings-list .sold path {
+  fill: #eb262673;
+  stroke: #f40f0f;
+  cursor: no-drop;
+}
+.buildings-list .sold path:hover {
+  fill: #f50000;
+  stroke: #f40f0f;
+}
+
+.buildings-list path:hover {
+  fill: #4ae150;
+  fill-opacity: 0.4;
+  stroke: #0ff44f;
+  stroke-width: 5;
+}
+
+.card {
+  padding: 30px;
+}
+
+.list-item-title {
+  padding-bottom: 30px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+.buildings-info {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  border-radius: 10px;
+}
+
+.info-list {
+  padding: 20px;
+  list-style: none;
+  border-radius: 10px;
+}
